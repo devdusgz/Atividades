@@ -1,0 +1,5 @@
+altura = int(input('Digite a altura: '))
+base = int(input('Digite a base: '))
+area = base * altura
+
+print(f'O valor da area {area}')
