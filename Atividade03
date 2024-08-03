@@ -11,7 +11,7 @@ while tentativas < 3:
         print('Parabéns! Você acertou.')
         break
 
-    elif:
+    else:
         print('Você errou! tente novamente.')
 else:
     print(f"Suas tentativas acabaram. O número era {numero_aleatorio}. Boa sorte na próxima!")
