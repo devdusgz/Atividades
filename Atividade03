@@ -1,0 +1,17 @@
+import random
+
+numero_aleatorio = random.randint(1, 10)
+
+tentativas = 0
+while tentativas < 3:
+    numero = int(input('Digite um numero: '))
+    tentativas += 1
+
+    if numero == numero_aleatorio:
+        print('Parabéns! Você acertou.')
+        break
+
+    else:
+        print('Você errou! tente novamente.')
+else:
+    print(f"Suas tentativas acabaram. O número era {numero_aleatorio}. Boa sorte na próxima!")
